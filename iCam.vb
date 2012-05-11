@@ -50,7 +50,7 @@ Public Class iCam
             Application.DoEvents()
 
             If setCam() = False Then
-                MessageBox.Show("Errror Setting/Re-Setting Camera")
+                MessageBox.Show("Errror Setting up Anansi Cam/Re-Setting Camera")
             End If
         End If
 
@@ -59,7 +59,7 @@ Public Class iCam
     Public Sub initCam(ByVal parentH As Integer)
         'Gets the handle and initiates camera setup
         If Me.iRunning = True Then
-            MessageBox.Show("Camera Is Already Running")
+            MessageBox.Show("Anansi Cam Is Already Running")
             Exit Sub
         Else
 
