@@ -1,5 +1,5 @@
 'Author Raindolf Owusu
-'iraindolf@yahoo.com and www.facebook.com/oasisweb
+'raindolf@oasiswebsoft.com and www.oasiswebsoft.com  
 
 
 Option Explicit On
