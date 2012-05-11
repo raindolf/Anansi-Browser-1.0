@@ -43,6 +43,9 @@ Public Class iCam
     Private OutputHeight As Integer = 240
     Private OutputWidth As Integer = 360
 
+
+'new function and string of if statements
+
     Public Sub resetCam()
         'resets the camera after setting change
         If iRunning Then
